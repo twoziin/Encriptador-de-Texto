@@ -1,6 +1,6 @@
 # Text Encryptor
 
-![Project Image](![image](https://github.com/user-attachments/assets/9ec0e61a-e7e6-4434-88b7-2fb2b7855614))
+![image](https://github.com/user-attachments/assets/9ec0e61a-e7e6-4434-88b7-2fb2b7855614))
 
 ## Descrição
 
