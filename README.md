@@ -7,6 +7,10 @@
 ## Descrição
 
 O **Text Encryptor** é um projeto desenvolvido para criptografar e descriptografar textos de forma eficiente. Este projeto foi criado como desafio em parceria com a Alura e OracleOne, oferecendo uma interface fácil de usar e algoritmos de criptografia basicos.
+Além disso, o **Text Encryptor** foi projetado com responsividade em mente, garantindo uma experiência de uso fluida em tablets: (Estou usando uma extenção do Google que simula dispositivos no navegador)
+![image](https://github.com/user-attachments/assets/9ca46146-3b1d-4f0d-a1c7-3a653dfe6358)
+
+Celular: ![image](https://github.com/user-attachments/assets/a856bfd8-f508-462c-a642-0c18c500ec36)
 
 ## Funcionalidades
 
