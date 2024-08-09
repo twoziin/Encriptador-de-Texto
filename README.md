@@ -11,6 +11,7 @@ Além disso, o **Text Encryptor** foi projetado com responsividade em mente, gar
 ![image](https://github.com/user-attachments/assets/2705f5d5-d1e2-45c2-80d2-1b5e27a0852c)
 
 Celular:
+
 ![image](https://github.com/user-attachments/assets/0a8f1976-bd1f-42b2-a75b-f7c00177de72)  ![image](https://github.com/user-attachments/assets/a898d02f-4b63-4f6b-a443-f70c6d1dd8a1)
 
 
