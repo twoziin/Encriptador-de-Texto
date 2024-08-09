@@ -1,0 +1,274 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+:root {
+  --cor-de-fundo: #d8dfe877;
+  --cor-primaria: #0a3871;
+  --cor-secundaria: white;
+  --cor-terciaria: #495057;
+  --cor-button2: #d8dfe8;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.body {
+  max-height: 100%;
+  background-color: var(--cor-de-fundo);
+  box-sizing: border-box;
+}
+
+.conteudo {
+  display: flex;
+  margin: 2.5rem;
+  gap: 80px;
+}
+
+.logo {
+  width: 98%;
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+
+.logo img {
+  width: 3%;
+  margin-left: 84px;
+}
+
+.logo textarea {
+  font-family: "Inter", sans-serif;
+  text-align: justify;
+  font-size: 2rem;
+  color: var(--cor-primaria);
+  display: flex;
+  padding-left: 23%;
+  background: none;
+  width: auto;
+  resize: none;
+  border: none;
+  outline: none;
+}
+
+::placeholder {
+  color: var(--cor-primaria);
+}
+
+.left {
+  width: 68%;
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
+
+.left_baixo {
+  padding-left: 13%;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.aviso {
+  width: 78%;
+  font-size: 12px;
+  color: var(--cor-terciaria);
+  font-family: "Inter", sans-serif;
+  display: flex;
+  align-items: left;
+  gap: 8px;
+}
+
+.botoes {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.button1 {
+  width: 20.5rem;
+  height: 4.5rem;
+  border-radius: 1.5rem;
+  font-size: 1rem;
+  color: var(--cor-secundaria);
+  border: none;
+  background-color: var(--cor-primaria);
+}
+
+.button2 {
+  border-style: solid;
+  border-color: var(--cor-primaria);
+  width: 20.5rem;
+  height: 4.5rem;
+  border-radius: 1.5rem;
+  font-size: 1rem;
+  color: var(--cor-primaria);
+  background-color: var(--cor-button2);
+}
+
+.right {
+  background-color: var(--cor-secundaria);
+  display: flex;
+  width: 25%;
+  height: 80vh;
+  flex-direction: column;
+  padding: 2rem;
+  border-radius: 2rem;
+  gap: 16px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.233);
+}
+
+.titulo_right {
+  width: 100%;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 1.5rem;
+  color: #343a40;
+}
+
+.p1 {
+  width: 99%;
+  text-align: center;
+  justify-content: center;
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  color: var(--cor-terciaria);
+}
+
+.resultado {
+  display: block;
+  max-height: 80%;
+  overflow-y: auto;
+  width: 100%;
+  font-family: "Inter", sans-serif;
+  font-size: 1.25rem;
+  color: var(--cor-terciaria);
+}
+
+.botao-copiar {
+  position: absolute;
+  align-content: center;
+  justify-content: center;
+  bottom: 11%;
+  right: 5.7%;
+  border-style: solid;
+  border-color: #0a3871;
+  width: 21%;
+  height: 4.5rem;
+  border-radius: 1.5rem;
+  font-size: 1rem;
+  color: #0a3871;
+  background-color: var(--cor-secundaria);
+  padding: 2rem;
+}
+
+.img_right {
+  padding-top: 23%;
+  padding-left: 6%;
+  display: flex;
+  justify-content: center;
+  width: 95%;
+}
+
+@media (max-width: 1023px) {
+  .conteudo {
+    flex-direction: column;
+    gap: 4rem;
+  }
+
+  .left {
+    display: flex;
+    width: 100%;
+  }
+
+  .logo {
+    width: 100%;
+    gap: 116px;
+  }
+
+  .logo textarea {
+    left: 10%;
+    padding-left: 0%;
+  }
+
+  .logo img {
+    margin: 0;
+  }
+
+  .left_baixo {
+    width: 100%;
+    padding: 0;
+  }
+
+  .aviso {
+    width: 100%;
+  }
+
+  .botoes {
+    width: 100%;
+  }
+
+  .botoes button {
+    width: 48.3%;
+  }
+
+  .right {
+    flex-direction: column;
+    padding: 2rem;
+    width: 92%;
+    height: auto;
+    gap: 2rem;
+  }
+
+  .titulo_right {
+    justify-content: center;
+  }
+
+  .img_right {
+    display: none;
+  }
+
+  .resultado {
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    width: 100%;
+    font-size: 1.5rem;
+  }
+
+  .botao-copiar {
+    display: flex;
+    width: 100%;
+    left: 0.4%;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 425px) {
+
+    .conteudo {
+        margin: 1rem;
+    }
+
+    .logo img {
+        width: 9%;
+    }
+
+    .botoes {
+        flex-direction: column;
+    }
+
+    .botoes button {
+        width: 100%;
+    }
+
+    .right {
+        width: 80%;
+        gap: 1rem;
+    }
+}
