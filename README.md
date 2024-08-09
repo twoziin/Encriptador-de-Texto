@@ -7,10 +7,13 @@
 ## Descrição
 
 O **Encriptador de Textp** é um projeto desenvolvido para criptografar e descriptografar textos de forma eficiente. Este projeto foi criado como desafio em parceria com a Alura e OracleOne, oferecendo uma interface fácil de usar e algoritmos de criptografia basicos.
-Além disso, o **Text Encryptor** foi projetado com responsividade em mente, garantindo uma experiência de uso fluida em tablets: (Estou usando uma extenção do Google que simula dispositivos no navegador)
+Além disso, o **Text Encryptor** foi projetado com responsividade em mente, garantindo uma experiência de uso fluida em tablets e celular: (Estou usando uma extenção do Google que simula dispositivos no navegador)
+
+**Tablets**
+
 ![image](https://github.com/user-attachments/assets/2705f5d5-d1e2-45c2-80d2-1b5e27a0852c)
 
-Celular:
+**Celular**
 
 ![image](https://github.com/user-attachments/assets/0a8f1976-bd1f-42b2-a75b-f7c00177de72)  ![image](https://github.com/user-attachments/assets/a898d02f-4b63-4f6b-a443-f70c6d1dd8a1)
 
