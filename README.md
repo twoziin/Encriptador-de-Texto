@@ -27,7 +27,7 @@ Além disso, o **Text Encryptor** foi projetado com responsividade em mente, gar
 
 ## Tecnologias Utilizadas
 
-- **Linguagens de Programação**:
+- **Linguagens**:
   - [HTML]
   - [CSS]
   - [JavaScript]
